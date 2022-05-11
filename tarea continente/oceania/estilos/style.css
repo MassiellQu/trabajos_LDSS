@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin: 0px;
+}
+header img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.menu {
+  background-color: rgb(244, 183, 0);
+  text-align: center;
+  margin: 0px;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  padding: 30px;
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+  display: block;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.menu a:hover {
+  background-color: rgb(239, 71, 55);
+  color: #ffffff;
+  font-weight: bold;
+  /* font-size: large; */
+}
+.central {
+  background-color: rgb(248, 252, 252);
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.foto {
+  margin: 5px;
+  text-align: center;
+}
+.foto img {
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
+}
+
+caption {
+  font-size: 20px;
+  color: rgb(231, 53, 53);
+  caption-side: top;
+}
+
+/*************************** table */
+table {
+  table-layout: fixed;
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgb(244, 183, 0);
+}
+
+td,
+tr {
+  width: 50%;
+  text-align: center;
+  border: 1px solid rgb(145, 143, 143);
+}
+
+.pais_nombre {
+  text-align: left;
+  padding-left: 10px;
+}
+/*************************** Footer */
+
+footer {
+  background-color: #444444;
+  color: #ffffff;
+  text-align: center;
+}
+/* .text-center {
+  text-align: center;
+} */
+
+.footer-links {
+  list-style-type: none;
+}
+
+footer li {
+  display: inline-block;
+}
+
+.footer_img {
+  height: 30px;
+  width: 30px;
+  margin: 50px;
+}
